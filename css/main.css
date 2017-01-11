@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?g6vg0m');
+  src:  url('../fonts/icomoon.eot?g6vg0m#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?g6vg0m') format('truetype'),
+    url('../fonts/icomoon.woff?g6vg0m') format('woff'),
+    url('../fonts/icomoon.svg?g6vg0m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

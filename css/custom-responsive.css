@@ -1,0 +1,220 @@
+@media screen and (min-width: 1331px) and (max-width:1420px) {
+	.leftMenu .font16 { font-size: 14px;}
+	/* side menu start */
+	#wrapper {padding-left: 160px;}
+	#sidebar-wrapper {margin-left: -160px;left: 160px;width: 160px;}
+	#wrapper.active {padding-left: 0;}
+	#wrapper.active #sidebar-wrapper {left: 0;}
+	/* side menu end */
+   .logoBox {height: 90px;width: 140px;}
+}
+@media screen and (min-width: 1200px) and (max-width:1330px) {
+	.leftMenu .font16 { font-size: 14px;}
+	/* side menu start */
+	#wrapper {padding-left: 30px;}
+	#sidebar-wrapper {margin-left: -160px;left: 160px;width: 160px;}
+	#wrapper.active {padding-left: 0;}
+	#wrapper.active #sidebar-wrapper {left: 0;}
+	#wrapper.active #menu-toggle{left: 0px;}
+	#wrapper #menu-toggle {left: 165px;}
+	/* side menu end */
+   .logoBox {height: 90px;width: 140px;}
+}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+	.contentOnSlider{width:940px;}
+	/*home page*/
+	.homeBelowBox .font36 {font-size: 29px;}
+	.textOnImage .font48 {font-size: 40px;}
+	.homePage .logoBox {height: 110px;width: 170px;}
+	/**/
+	.leftMenuHome{ width:200px;}
+	.bookAFlightNav{ left:200px;}
+	/**/
+	/* side menu start */	
+	#wrapper {padding-left: 0;}
+	#sidebar-wrapper {left: 0;}
+	.homePage #wrapper.active { padding-left: 0; left:0;}
+	#wrapper.active #sidebar-wrapper {left: 250px;width: 250px;transition: all 0.4s ease 0s;}
+	#menu-toggle {display: inline-block;margin: 5px; left:0;}
+	#wrapper.active #menu-toggle {left: 255px;}
+	/* side menu start end */
+	.aboutMainImgBox {height: 292px;}
+	.aboutMainImage {background-size: 100%;}
+	.captchWidth {width: 36%;}
+	/* bookingAFlightBox  end */
+	.flightList .width25per {width: 30%;}
+	.flightList .width55per {width: 50%;}
+	.detailFlighPlane .searchDestination li {width: 35%;}
+	.detailFlighPlane .searchDestination li:nth-child(2) {width: 25%;}
+	.detailFlighPlane .font18, .flightList .font18{ font-size:16px;}
+	/* bookingAFlightBox  end */
+	.leftMenuHome, .bookAFlightNav{ height:510px;}
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+	.contentOnSlider{width:720px;}
+	/**/
+	.leftMenuHome{ padding:10px;}
+	.leftMenuHome{ width:150px;}
+	.bookAFlightNav{ left:150px;}
+	.textOnImage {width: 28%;bottom:120px;}
+	.mainSlider {height: 600px;}
+	/**/
+	/*home page*/
+	.homePage .logoBox {height: 85px;width: 130px;}
+	.textOnImage .font48 {font-size: 30px;}
+	.textOnImage .font18 {font-size: 15px;}
+	.homeBelowBox .font36 {font-size: 20px;}
+	.homeBelowBox .font16 {font-size: 14px;}
+	.homeBelowBox::before { top:0;}
+	.homePageMainImgBox {height: 650px;}
+	.bookAFlightNav, .leftMenuHome {top: 70px;}
+	/* footer start */
+	.footerList li { font-size:12px;}
+	/* about us start*/
+	.aboutTextOnImage .font48, .aboutTextOnImage {font-size: 38px;}
+	/* side menu start */
+	#wrapper {padding-left: 0;}
+	#sidebar-wrapper {left: 0;}
+	.homePage #wrapper.active { padding-left: 0; left:0;}
+	#wrapper.active #sidebar-wrapper {left: 250px;width: 250px;transition: all 0.4s ease 0s;}
+	#menu-toggle {display: inline-block;margin: 5px; left:0;}
+	#wrapper.active #menu-toggle {left: 255px;}
+	/* about us start*/
+	.aboutMainImgBox {height: 290px;}
+	.aboutMainImage {background-size: 130%;}
+	.aboutTextOnImage p {line-height: 38px;}
+	.captchWidth {width: 32%;}
+	/* payment box start*/
+	.paymentBox .width30per {width: 50%;}
+	.billBox .block1 {width: 60%;}
+	.billBox .block1.text-right {width: 39%;}
+	/* payment box end*/
+	/* bookingAFlightBox  end */
+	.flightList .width25per {width: 30%;}
+	.flightList .width55per {width: 50%;}
+	.detailFlighPlane .searchDestination li {width: 35%;}
+	.detailFlighPlane .searchDestination li:nth-child(2) {width: 25%;}
+	.paddingLeft{ padding-left:0;}
+	.detailFlighPlane  .font14, .flightList .font14{ font-size:12px; margin-top:0;}
+	.bookingAFlightBox .halfWidth {padding: 0px 10px;}
+	.detailFlighPlane .width70per {width: 77%;}
+	.detailFlighPlane .width30per {width: 22%;}
+	.sortBtn a {padding: 8px 0px;}
+	.detailFlighPlane .font18, .flightList .font18{ font-size:14px;}
+	.flightListBox .customCheckbox .checkBoxLabel { padding:5px;padding-left: 25px;}
+	.width55per,.width20per, .width25per  {padding: 0 5px;}
+	.flightList .planeBox .planBg {font-size: 14px;width: 15px;}
+	.flightListBox .planeBox {top: -13px;}
+	.flightList .planeBox .planBg::before, .planeBox .planBg::after {width: 6px;}
+	.customCheckbox .checkBoxLabel:before {font-size:18px;}
+	.formPointerEvent .input__label-content--hoshi{ font-size:14px;}
+	/* bookingAFlightBox  end */
+	.leftMenuHome, .bookAFlightNav{ height:510px;}
+	.homePage .leftMenuHome li a{font-size: 13px;}
+}
+@media screen and (max-width:767px) {
+	.contentOnSlider{ width:auto;}
+	.font16 {font-size: 14px;}
+	.font18 {font-size: 16px;}
+	.font24 {font-size: 20px;}
+	.font30 {font-size: 25px;}
+	body{ font-size:12px;}
+	.marginBottom15 {margin-bottom: 10px;}
+	.marginTop25 {margin-top: 15px;}
+	/*home page*/
+	.textOnImage .font48 {font-size: 29px;margin-bottom: 0}
+	.textOnImage .font18 {font-size: 15px;}
+	.homeBelowBox .font36 {font-size: 20px;margin-bottom: 5px;}
+	.homeBelowBox .font16 {font-size: 14px;}
+	.homeBelowBox::before { top:0;}
+	.homePageMainImgBox {height: 665px;}	
+	.bookAFlightNav {width:290px;padding:10px; top:145px;left: 0;right: 0;margin: 0 auto;-webkit-box-shadow: 0px 3px 5px 0px rgba(226,226,226,1);-moz-box-shadow: 0px 3px 5px 0px rgba(226,226,226,1);
+box-shadow: 0px 3px 5px 0px rgba(226,226,226,1);}
+	.mainHomeImage{ background-image:none; background-color:#2285c6;}
+	.textOnImage {position: absolute;right: 0;bottom: auto;width: 100%;top: 0;left: 0;margin: 0 auto;background: #2285c6;padding: 40px 15px;}
+	.textOnImage p{ display:none;}
+	.homeBelowBox{ margin-bottom:20px;}
+	.offerBox {padding: 20px 0 10px 0;}
+	.datePickUp .halfWidth { width:100%;}
+	/* footer start */
+	.footerBox .floatLeft , .footerBox .floatRight{ float:none;}
+	.floatLeft .footerList li{border-right: none;float: none;padding-right: 0;margin-right: 0;}
+	.footerBox {padding: 10px 0;}
+	/**/		
+	.homePage #menu-toggle{ display: block;}
+	.leftMenuHome{ top:0; right:0; width:100%; z-index:999; display:none; height:100%;}
+	/**/
+	/* side menu start */
+	#wrapper {padding-left: 0;}
+	#sidebar-wrapper {left: 0;}
+	#wrapper.active {position: absolute;left: auto; right:0; width:100%;}
+	#wrapper.active #sidebar-wrapper {left: 250px;width: 100%;transition: all 0.4s ease 0s;}
+	#menu-toggle {display: inline-block;margin: 5px; right:10px; top:15px; position: absolute;}
+	/* about us start*/
+	.aboutTextOnImage .font48, .aboutTextOnImage {font-size: 25px;}
+	.aboutTextOnImage{ left:0; right:0; bottom: 40px;}
+	.aboutMainImgBox {height: 190px;}
+	.abouText {margin: 10px 0;}
+	.aboutMainImage {background-image: none;background-color: #2285c6;}
+	.aboutTextOnImage p {line-height: 28px;}
+	.captchBox  .disInline{ display:block; margin-bottom:5px; width:100%;}
+	.captchDisplay input{ height:50px; margin:1px;}
+	.captchDisplay input:focus{ margin:0; height:50px;}
+	.howToReach ul li {width: 100%;margin-bottom: 15px;}
+	.howToReach li label{ margin-bottom:2px;}
+	.btnGreen {padding: 8px;font-size: 15px;}
+	.captchBox  .btn{ margin-top:15px;}
+	/* payment box start*/
+	.paymentBox .halfWidth {width: 100%; min-height: auto;}
+	.billBox .table td , .font14{font-size: 12px;}
+	.paymentBox label{ font-size:14px;}
+	.paymentBox .bgYellow {padding: 0px; background-color:#ffffff;}
+	.yellowBoxBtn .btn{ width:100%;}
+	.paymentBox .width30per {width: 62%;}
+	/* payment box end*/
+	/* bookingAFlightBox  end */
+	.bookingAFlightBox .halfWidth , .oneWayTrip .halfWidth.bookingAFlightRight {width: 100%; padding:0; border:none;}
+	.sortBtn .width25per {text-align: center;}
+	.flightList .width25per {width: 30%;}
+	.flightList .width55per {width: 50%;}
+	.detailFlighPlane .searchDestination li {width: 35%;}
+	.detailFlighPlane .searchDestination li:nth-child(2) {width: 25%;}
+	.paddingLeft{ padding-left:0;}
+	.detailFlighPlane  .font14, .flightList .font14{ font-size:10px; margin-top:0;}
+	.detailFlighPlane .width70per {width: 84%;}
+	.detailFlighPlane .width30per {width: 16%;}
+	.sortBtn a {padding: 8px 0px;}
+	.detailFlighPlane .font18, .flightList .font18{ font-size:12px;}
+	.flightListBox .customCheckbox .checkBoxLabel { padding:5px;padding-left: 25px;}
+	.width55per,.width20per, .width25per  {padding: 0 5px;}
+	.flightList .planeBox .planBg {font-size: 12px;width: 15px;}
+	.flightListBox .planeBox {top: -11px;}
+	.flightList .planeBox .planBg::before, .planeBox .planBg::after {width: 6px;}
+	.customCheckbox .checkBoxLabel:before {font-size:14px;}
+	.detailFlighPlane .planeBox {top: -28px;}
+	.flightListBox .customCheckbox .checkBoxLabel {transform: scale(1);-webkit-transform: scale(1);-o-transform: scale(1);-moz-transform: scale(1);}
+	/* bookingAFlightBox  end */	
+	.fill{ background-image:none !important;}
+	#sidebar-wrapper {margin-left: auto;top: 75px; margin-right:-250px; left:auto; right:0; background-color:transparent; border:none;}
+	.leftMenuHome{ min-height:auto;}
+	.leftMenu, .leftMenu ul{height: 400px;overflow-y: scroll; margin-bottom:20px;}
+	#wrapper.active #sidebar-wrapper {left: auto; right:250px; background-color:#ffffff;}
+	.logoInRes{ position:absolute; left:15px; top:5px;}
+	.logoInRes .imgBox{ height:65px; width:100px; background-image:url(../images/logo.png);background-size:100%;background-repeat: no-repeat;}
+	.content-header{ background:#2285c6; height:75px; z-index:1030;}
+	.leftMenu li a{ font-size:16px;}
+	.bodyOverflow{ overflow:hidden;position: fixed;left: 0;right: 0;}
+	.leftRes.in{ position: fixed;left: 0;right: 0;top: 75px;bottom: 0;z-index: 999; background:#ffffff;}
+	.billBox .block1 {width: 68%;}
+	.billBox .block1.text-right {width: 30%;}
+	.mainSlider{ height:670px;}
+	.oneWayTrip .bgGreen {min-height: 100px;}
+	.yellowBoxBtn ul{ margin-bottom:20px; font-size:14px;}
+	.leftMenuHome ul {background-color: transparent;}
+	.homePage .leftMenuHome li a {color: #9a9a9a;}
+	.homePage .leftMenuHome li:hover a, .homePage .leftMenuHome li.active a{ color:#2285c6;}
+	.logoBox{ display:none;}
+}
+@media screen and (max-width:479px) {
+	.textOnImage {padding: 22px 15px;}
+}
